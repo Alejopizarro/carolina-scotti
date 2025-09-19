@@ -62,7 +62,7 @@ const Services = () => {
             <div className="flex gap-4">
               <div className="flex flex-col items-center gap-2">
                 <Calendar className="text-rose-500" size={32} />
-                <div className="bg-rose-300 w-1 h-20 rounded-full mb-4" />
+                <div className="bg-rose-300 w-1 h-29 sm:h-20 rounded-full mb-4" />
               </div>
               <div className="flex flex-col">
                 <h3 className="text-xl font-semibold mb-4 text-gray-950">
@@ -77,7 +77,7 @@ const Services = () => {
             <div className="flex gap-4">
               <div className="flex flex-col items-center gap-2">
                 <PuzzleIcon className="text-rose-500 mb-2" size={32} />
-                <div className="bg-rose-300 w-1 h-25 rounded-full mb-4" />
+                <div className="bg-rose-300 w-1 h-29 sm:h-25 rounded-full mb-4" />
               </div>
               <div className="flex flex-col">
                 <h3 className="text-xl font-semibold mb-4 text-gray-950">
