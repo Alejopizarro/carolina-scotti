@@ -4,7 +4,7 @@ import { ArrowRight, Check } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="2xl:max-w-8xl overflow-hidden relative px-4">
+    <div className="2xl:max-w-8xl overflow-hidden relative p-8">
       <div className="flex flex-col gap-8 md:flex-row py-8 min-h-[100vh] items-center justify-center">
         <div className="flex flex-col px-4 max-w-2xl tracking-tight leading-none">
           <h1 className="text-md font-light text-gray-700 mb-2">
@@ -32,7 +32,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative z-10">
-          <div className="bg-gray-50/70 border-1 border-white gap-2 px-4 py-2 rounded-lg shadow-md absolute top-5 lg:top-10 right-60 lg:right-72">
+          <div className="bg-gray-50/70 border-1 border-white gap-2 px-4 py-2 rounded-lg shadow-md absolute top-5 lg:top-10 right-57 lg:right-72">
             <p className="font-bold w-max text-4xl flex flex-col">
               + 15
               <span className="font-extralight mt-2 text-gray-700 text-xs">
@@ -40,7 +40,7 @@ const Hero = () => {
               </span>
             </p>
           </div>
-          <div className="bg-gray-50/70 border-1 border-white gap-2 px-4 py-2 rounded-lg shadow-md absolute bottom-10 left-60 lg:left-72">
+          <div className="bg-gray-50/70 border-1 border-white gap-2 px-4 py-2 rounded-lg shadow-md absolute bottom-10 left-57 lg:left-72">
             <p className="font-bold w-max text-4xl flex flex-col">
               + 2000
               <span className="font-extralight text-gray-600 mt-2 text-xs">
