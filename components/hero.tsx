@@ -4,7 +4,7 @@ import { ArrowRight, Check } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="2xl:max-w-7xl mx-auto overflow-hidden relative">
+    <div className="overflow-hidden relative">
       <div className="flex flex-col gap-8 md:flex-row py-8 min-h-[100vh] items-center justify-center">
         <div className="flex flex-col max-w-2xl tracking-tight px-4 leading-none">
           <h1 className="text-md font-light text-gray-700 mb-2">
@@ -61,7 +61,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="bg-[url('/background-mobile.png')] sm:bg-[url('/background-blob.png')] bg-center ">
+      <div className="bg-[url('/background-mobile.png')] sm:bg-[url('/background-blob.png')] bg-center sm:bg-cover">
         <div className="px-4 py-8 flex flex-col z-10 justify-center text-center max-w-6xl mx-auto">
           <h2 className="text-2xl font-light mb-2 text-rose-500">
             En qué te puedo acompañar
@@ -112,8 +112,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="h-24 w-148 rotate-25 sm:top-50 top-140 -right-40 sm:-right-0 2xl:right-40 z-1 rounded-full bg-gradient-to-r from-rose-300 to-amber-300 absolute opacity-70 mx-auto blur-sm" />
-      <div className="h-24 w-148 rotate-25 sm:top-80 top-170 -right-40 sm:-right-0 2xl:right-40 z-1 rounded-full bg-gradient-to-r from-rose-300 to-purple-300 absolute opacity-70 mx-auto" />
+      <div className="h-24 w-148 rotate-25 sm:top-50 top-140 -right-40 sm:-right-0 2xl:right-30 z-1 rounded-full bg-gradient-to-r from-rose-300 to-amber-300 absolute opacity-70 mx-auto blur-sm" />
+      <div className="h-24 w-148 rotate-25 sm:top-80 top-170 -right-40 sm:-right-0 2xl:right-30 z-1 rounded-full bg-gradient-to-r from-rose-300 to-purple-300 absolute opacity-70 mx-auto" />
     </div>
   );
 };
