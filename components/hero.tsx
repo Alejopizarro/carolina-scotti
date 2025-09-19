@@ -61,7 +61,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="bg-[url('/background-blob.png')] bg-center ">
+      <div className="bg-[url('/background-mobile.png')] sm:bg-[url('/background-blob.png')] bg-center ">
         <div className="px-4 py-8 flex flex-col z-10 justify-center text-center max-w-6xl mx-auto">
           <h2 className="text-2xl font-light mb-2 text-rose-500">
             En qué te puedo acompañar
