@@ -1,9 +1,15 @@
 import type { Metadata } from "next";
-import { Lora } from "next/font/google";
+import { Lora, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const lora = Lora({
   subsets: ["latin"],
+  variable: "--font-lora",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
@@ -18,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={lora.className}>{children}</body>
+      <body className={`${lora.className} ${montserrat.className}`}>
+        {children}
+      </body>
     </html>
   );
 }

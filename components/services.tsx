@@ -47,9 +47,9 @@ const Services = () => {
         <h2 className="text-xl font-light mb-2 text-rose-500">
           Mi método de acompañamiento
         </h2>
-        <p className="text-4xl font-serif italic">
+        <h3 className="text-4xl font-semibold italic">
           Así es como empieza nuestro trabajo juntos
-        </p>
+        </h3>
         <div className="flex flex-col-reverse sm:flex-row max-w-6xl gap-6 mx-auto mt-12">
           <Image
             src="/caro-work.avif"
@@ -105,7 +105,7 @@ const Services = () => {
                 </p>
               </div>
             </div>
-            <Button className="w-fit inline-flex my-6 rounded-full py-6 px-24 items-center gap-2">
+            <Button className="sm:w-fit inline-flex my-6 rounded-full py-6 px-24 items-center gap-2">
               Agendar una consulta gratuita
               <ArrowRight />
             </Button>
