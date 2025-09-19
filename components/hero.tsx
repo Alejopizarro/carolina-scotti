@@ -4,8 +4,8 @@ import { ArrowRight, Check } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="2xl:max-w-8xl overflow-hidden relative py-8">
-      <div className="flex flex-col gap-8 md:flex-row px-4 py-8 min-h-[100vh] items-center justify-center">
+    <div className="2xl:max-w-8xl overflow-hidden relative px-4 py-8">
+      <div className="flex flex-col gap-8 md:flex-row py-8 min-h-[100vh] items-center justify-center">
         <div className="flex flex-col sm:max-w-2xl tracking-tight leading-none">
           <h1 className="text-md font-light text-gray-700 mb-2">
             Carolina Scotti | Psicologa especialista en Ansiedad, estrés y
