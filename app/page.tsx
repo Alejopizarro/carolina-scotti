@@ -6,7 +6,6 @@ import Hero from "@/components/hero";
 import Newsletter from "@/components/newsletter";
 import Services from "@/components/services";
 import Tip from "@/components/tip";
-import Carousel from "@/components/ui/carousel";
 
 export default function Home() {
   return (
@@ -46,7 +45,7 @@ export default function Home() {
           />
         </svg>
       </div>
-      <div className="bg-[url('/background.png')] bg-cover bg-center">
+      <div className="bg-[url('/background.png')] bg-cover bg-center space-y-8 pb-8 md:pb-16">
         <Courses />
         <Contact />
       </div>
@@ -65,7 +64,6 @@ export default function Home() {
       </div>
       <div className="bg-[url('/light-background.png')] bg-cover bg-center pb-8 md:pb-16">
         <Newsletter />
-        <Carousel slides={[1, 2, 3, 4, 5]} />
       </div>
     </div>
   );

@@ -3,11 +3,11 @@ import Image from "next/image";
 const Courses = () => {
   return (
     <div className="flex flex-col items-center justify-center max-w-6xl mx-auto p-4 sm:py-16 text-center gap-6">
-      <p className="text-md text-rose-400 font-serif font-semibold">
+      <p className="text-xs md:text-md text-rose-400 font-serif font-semibold">
         Además de las sesiones individuales, también ofrezco programas grupales
         online sobre ansiedad y estrés
       </p>
-      <h2 className="text-5xl text-gray-950 font-light italic">
+      <h2 className="text-[2.50rem] leading-none md:text-5xl text-gray-950 font-light italic">
         Programas de acompañamiento grupales
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full mt-8">

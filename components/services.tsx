@@ -43,7 +43,7 @@ const Services = () => {
           <ServicesGrid />
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center text-center p-4">
+      <div className="flex flex-col justify-center items-center text-center px-4 py-8 sm:px-8 sm:py-16">
         <h2 className="text-xl font-light mb-2 text-rose-500">
           Mi método de acompañamiento
         </h2>

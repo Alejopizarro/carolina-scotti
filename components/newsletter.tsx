@@ -1,7 +1,7 @@
 const Newsletter = () => {
   return (
     <div className="flex flex-col items-center justify-center max-w-4xl mx-auto p-4 sm:py-16 text-center gap-6">
-      <h2 className="text-4xl text-rose-300 font-extrabold">
+      <h2 className="text-4xl text-rose-400 font-extrabold">
         Recibí herramientas prácticas cada semana
       </h2>
       <p className="text-lg text-gray-600 max-w-2xl">

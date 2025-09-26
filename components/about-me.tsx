@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 const AboutMe = () => {
   return (
     <div
-      className="flex flex-col items-center overflow-hidden max-w-6xl mx-auto px-4 py-16 sm:px-8 sm:py-32 gap-8"
+      className="flex flex-col items-center overflow-hidden max-w-6xl mx-auto px-4 py-8 sm:px-8 sm:py-32 gap-8"
       id="about"
     >
       <div className="flex flex-col sm:flex-row sm:items-center gap-8 md:gap-16">
