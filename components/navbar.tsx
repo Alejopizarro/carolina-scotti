@@ -30,7 +30,7 @@ const Navbar = () => {
           Blog
         </a>
       </div>
-      <Button className="bg-gradient-to-r from-rose-500 to-rose-800 hover:from-rose-300 hover:to-rose-500  cursor-pointer rounded-full">
+      <Button className="hidden sm:flex bg-gradient-to-r from-rose-500 to-rose-800 hover:from-rose-300 hover:to-rose-500  cursor-pointer rounded-full">
         agendar consulta gratuita <ArrowRight className="inline-flex ml-2" />
       </Button>
       <Sheet>
