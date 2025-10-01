@@ -69,7 +69,7 @@ const Services = () => {
                 <div className="bg-rose-300 w-1 h-28 sm:h-20 rounded-full mb-2" />
               </div>
               <div className="flex flex-col">
-                <h3 className="text-xl font-semibold font-mono mb-2 text-gray-950">
+                <h3 className="text-xl font-medium font-mono mb-2 text-gray-950">
                   Agenda tu llamada de evaluación (15 min)
                 </h3>
                 <p className="text-gray-600">
@@ -88,7 +88,7 @@ const Services = () => {
                 <div className="bg-rose-300 w-1 h-26 sm:h-25 rounded-full mb-2" />
               </div>
               <div className="flex flex-col">
-                <h3 className="text-xl font-semibold font-mono mb-2 text-gray-950">
+                <h3 className="text-xl font-medium font-mono mb-2 text-gray-950">
                   Primera sesión: entendemos tu historia y definimos objetivos
                 </h3>
                 <p className="text-gray-600">
@@ -107,7 +107,7 @@ const Services = () => {
                 />
               </div>
               <div className="flex flex-col">
-                <h3 className="text-xl font-semibold font-mono mb-2 text-gray-950">
+                <h3 className="text-xl font-medium font-mono mb-2 text-gray-950">
                   Plan a medida
                 </h3>
                 <p className="text-gray-600">

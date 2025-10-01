@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const CoursesGrid = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 w-full text-center mt-2 sm:mt-12">
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-12 w-full sm:text-center mt-2 sm:mt-12">
       <div className="flex flex-col border h-fit bg-white rounded-lg shadow-xl p-4">
         <Image
           src="/supera-ataques-de-panico.avif"
@@ -12,7 +12,7 @@ const CoursesGrid = () => {
           className="rounded-lg shadow-md h-60 object-cover mb-6"
         />
         <div className="flex flex-col gap-2 px-4">
-          <a className="transition duration-200 cursor-pointer hover:underline hover:text-rose-300 text-2xl mb-2 text-gray-950">
+          <a className="transition duration-200 cursor-pointer hover:underline font-mono font-medium hover:text-rose-300 text-2xl sm:text-xl mb-2 text-gray-950">
             Supera los Ataques de Pánico - 5 semanas
           </a>
           <p className="text-gray-500 text-sm mb-4">
@@ -35,7 +35,7 @@ const CoursesGrid = () => {
           className="rounded-lg shadow-md h-60 object-cover mb-6"
         />
         <div className="flex flex-col gap-2 px-4">
-          <a className="hover:underline transition duration-200 cursor-pointer  hover:text-rose-300 text-2xl mb-2 text-gray-950">
+          <a className="hover:underline transition duration-200 cursor-pointer  hover:text-rose-300 font-mono font-medium text-2xl sm:text-xl mb-2 text-gray-950">
             Bootcamp Ansiedad & Estrés - 5 semanas
           </a>
           <p className="text-gray-500 text-sm mb-4">
@@ -59,7 +59,7 @@ const CoursesGrid = () => {
           className="rounded-lg shadow-md h-60 object-cover mb-6"
         />
         <div className="flex flex-col gap-2 px-4">
-          <a className="hover:underline transition duration-200 cursor-pointer hover:text-rose-300 text-2xl mb-2 text-gray-950">
+          <a className="hover:underline transition duration-200 cursor-pointer hover:text-rose-300 text-2xl sm:text-xl mb-2 font-mono font-medium text-gray-950">
             Supera el miedo a volar - 5 semanas
           </a>
           <p className="text-gray-500 text-sm mb-4">
