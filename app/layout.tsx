@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
-import { Lora, Montserrat } from "next/font/google";
+import { Inter, Playfair_Display, EB_Garamond } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 
-const lora = Lora({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-lora",
+  variable: "--font-playfair",
 });
 
-const montserrat = Montserrat({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-inter",
+});
+
+const garamond = EB_Garamond({
+  subsets: ["latin"],
+  variable: "--font-garamond",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${lora.className} ${montserrat.className}`}>
+      <body
+        className={`${playfair.variable} ${inter.variable} ${garamond.variable}`}
+      >
         <Navbar />
         {children}
       </body>

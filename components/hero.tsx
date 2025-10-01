@@ -5,29 +5,26 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <div className="flex flex-col gap-8 md:flex-row items-center justify-center overflow-hidden py-8 pt-26 sm:py-16 sm:pt-32 px-4 sm:px-8">
-      <div className="flex flex-col max-w-2xl tracking-tight px-4 leading-none">
-        <h1 className="text-md font-light text-gray-700 mb-2">
+      <div className="flex flex-col max-w-2xl tracking-tight px-4 ">
+        <h1 className="text-md font-light font-mono text-gray-700 my-4">
           Carolina Scotti | Psicologa especialista en Ansiedad, estrés y ataques
           de panico
         </h1>
-        <h2 className="text-5xl font-extrabold z-10 text-gray-950 mb-1">
+        <h2 className="text-5xl font-extrabold z-12 text-gray-950 mb-1 leading-none">
           ¿Sientes qué{" "}
           <span className="text-rose-300 font-serif">la ansiedad</span> esta
           tomando el control de tu vida?
         </h2>
         <p className="font-extralight text-gray-700">-</p>
-        <p className="text-lg text-gray-700 font-light mt-1 z-10 max-w-xl">
+        <p className="text-lg text-gray-700 font-light mt-1 z-12 max-w-xl">
           Acompaño a mujeres a entender lo que les pasa y a gestionar la
           ansiedad con herramientas basadas en la evidencia y un trato cercano.
         </p>
-        <div className="flex mt-6 gap-4 max-w-lg">
-          <Button
-            variant="outline"
-            className="hidden sm:flex rounded-full py-6 z-10"
-          >
+        <div className="flex flex-col sm:flex-row mt-6 gap-4 max-w-lg">
+          <Button variant="outline" className="rounded-full py-6 z-10">
             Conoce mi método
           </Button>
-          <Button className="relative z-12 rounded-full py-6 min-w-[210px] flex-1">
+          <Button className="relative z-12 rounded-full py-6 sm:min-w-[210px]">
             Agendar consulta gratuita <ArrowRight />
           </Button>
         </div>

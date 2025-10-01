@@ -3,17 +3,17 @@ import { BicepsFlexed, Brain, Check, Heart } from "lucide-react";
 const Features = () => {
   return (
     <div className="pt-8 text-center">
-      <div className="flex flex-col z-10 justify-center items-center">
-        <h2 className="text-2xl font-light mb-2 text-rose-500">
+      <div className="flex flex-col z-10 px-4 justify-center items-center">
+        <h2 className="text-4xl font-semibold mb-2 sm:mb-4 text-rose-400">
           En qué te puedo acompañar
         </h2>
-        <p className="font-serif sm:max-w-3xl mx-auto text-2xl italic text-gray-950">
-          Trabajo junto a tí para que puedas{" "}
-          <span className="font-semibold">
-            sentirte mejor, recuperando la calma y la confianza en vos misma.
+        <p className="sm:max-w-3xl mx-auto text-xl text-gray-500">
+          Trabajo junto a tí para que puedas sentirte mejor,{" "}
+          <span className="font-semibold text-gray-950">
+            recuperando la calma y la confianza en vos misma.
           </span>
         </p>
-        <div className="grid grid-cols-1 text-xl text-center sm:grid-cols-3 max-w-6xl mx-auto gap-8 px-4 md:text-left my-8 sm:mb-16">
+        <div className="grid grid-cols-1 text-xl text-center sm:grid-cols-3 max-w-6xl mx-auto gap-8 md:text-left my-8 sm:mb-16">
           <div className="flex flex-col bg-gray-50/30 border-sky-200 rounded-lg border shadow-xl gap-2 px-4 py-8">
             <Brain
               className="text-sky-300 mx-auto"
